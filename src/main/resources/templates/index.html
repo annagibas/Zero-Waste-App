@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> Bootstrap Navbar Example </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div class="container m-5">
+  <nav th:replace="fragments/navbar :: navbar"></nav>
+    <div class="img-wrapper">
+
+     <a href="/advertisements?category=Narzędzia" style="background-image: url('/img/narzędzia.jpg');"> </a>
+     <a href="/advertisements?category=Farby i tapety" style="background-image: url('/img/farby_tapety.jpg');"> </a>
+      <a href="/advertisements?category=Drewno" style="background-image: url('/img/drewno.jpg');"></a>
+
+	  <a href="/advertisements?category=Cegły i pustaki" style="background-image: url('/img/cegly_pustaki.jpg');"></a>
+      
+     <a href="/advertisements?category=Płytki i panele" style="background-image: url('/img/plytki_panele.jpg');"></a>
+      <a href="/advertisements?category=Cementy i zaprawy" style="background-image: url('/img/cementy_zaprawy.jpg');"></a>
+    </div>
+    <footer class="bg-white" th:replace="fragments/footer :: footer"></footer>
+  </div>
+  
+</body>
+
+</html>
