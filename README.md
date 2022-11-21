@@ -22,4 +22,4 @@
 
 ![Login form](./images/login.png)
 
-![Advertisement add form](./images/advertisement_adding.png)
+![Advertisement form](./images/advertisement_adding.png)
