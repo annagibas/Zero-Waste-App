@@ -21,5 +21,3 @@
 ![Register form](./images/registration.png)
 
 ![Login form](./images/login.png)
-
-![Advertisement form](./images/advertisement_adding.png)
